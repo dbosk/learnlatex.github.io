@@ -1,5 +1,9 @@
 ---
-title: Test
+layout: "lesson"
+title: "Test"
+description: "Meta description."
+keywords: ""
+permalink: /test
 ---
 
 # Heading level 1
