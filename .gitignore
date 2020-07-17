@@ -25,4 +25,5 @@ _workfiles
 .jekyll-metadata
 .sass-cache
 _site
+_workfiles
 package.json
