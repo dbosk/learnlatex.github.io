@@ -13,8 +13,10 @@
 *.swp
 *.swo
 *.tmp
+*.ttf
 *.vim
 *.xlsx
+*.zip
 
 # directories
 _workfiles
