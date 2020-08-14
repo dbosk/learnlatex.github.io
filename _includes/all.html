@@ -1,0 +1,11 @@
+{% assign splitprefix = include.prefix | split: "/" %}
+{% assign l = splitprefix[0] %}
+{%- for page in site.pages | sort: 'path' -%}
+{%- if page.path  contains include.prefix %}
+{% if l == "en" %}
+{% include_relative {page.path} %}
+{% else %}
+{% include_relative {page.path | remove_first: l | remove_first: "/"} %}
+{% endif %}
+{%- endif -%}
+{%- endfor -%}

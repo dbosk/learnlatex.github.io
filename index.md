@@ -42,6 +42,9 @@ system is up-to-date.
 
 {% include toc.html  prefix="en/lesson" %}
 
+You can also access them [all in one page](/all).
+
+
 ### Additional lessons specific to learnlatex.org/en
 
 {% include toc.html  prefix="en/language" %}
